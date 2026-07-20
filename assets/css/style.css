@@ -1,55 +1,105 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.view-port-format {
-    height: 100vh;
+:root {
+    --color-text: rgb(119, 119, 119);
+}
+
+@keyframes animatetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
 }
 
 header {
-    background-color: #fff;
     width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     z-index: 1;
 }
 
-
-.cabecalho {
-    width: 30%;
+.nav-animation {
+    position: relative;
+    animation: animatetop 0.4s;
 }
 
-.cabecalho ul {
-    display: flex;
-    justify-content: space-between;
+.nav-animation-format {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.cabecalho ul li {
-    list-style: none;
+.nav-bar {
+    position: absolute;
+    width: 100%;
+    color: var(--color-text);
 }
 
-.cabecalho ul li a {
+
+.nav-bar-buttom {
+    width: auto;
+    padding: 8px 16px;
+    float: left;
+    font-size: 15px;
+    color: inherit;
     text-decoration: none;
+}
+
+.nav-bar-buttom:hover {
+    background-color: #ccc;
     color: #000;
 }
 
-.home div {
-    background-color: #000000de;
-    color: #fff;
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-bar a:last-child {
+    float: right;
 }
 
-.about {
-    background-color: pink;
-    padding-top: 60px;
-    display: flex;
-    justify-content: center;
+.nav-bar a:last-child:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+
+.back-image {
+    min-height: 400px;
+    max-width: 1600px;
+    background-image: url(/assets/images/parallax1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.75;
+}
+
+.image-text {
+   min-height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-text span {
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    font-size: 24px;
+    letter-spacing: 10px;
 }

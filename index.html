@@ -5,38 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+    window.onscroll = function() {myfunction()};
+
+    function myfunction() {
+        var navbar = document.getElementById("my-nav-bar")
+        if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+
+            navbar.className = "nav-bar nav-animation nav-animation-format"
+
+            navbar.style.color = "#000"
+        } else {
+            navbar.className = navbar.className.replace("nav-animation")
+
+            navbar.style.color = "var(--color-text)"
+        }
+    }
+
+</script>
 <body>
-    <header>
-        <nav class="cabecalho">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <p>Pesquisa</p>
-    </header>
-    <section id="home" class="home view-port-format">
-        <div>
-            <h1>My Website logo</h1>
+    <header id="cabecalho">
+        <div id="my-nav-bar" class="nav-bar">
+            <a href="#" class="nav-bar-buttom">HOME</a>
+            <a href="#" class="nav-bar-buttom">ABOUT</a>
+            <a href="#" class="nav-bar-buttom">PORTFOLIO</a>
+            <a href="#" class="nav-bar-buttom">CONTACT</a>
+            <a href="#" class="nav-bar-buttom">SEARCH</a>
         </div>
-    </section>
+    </header>
 
+    <div class="back-image">
+        <div class="image-text">
+            <span>MY WEB SITE LOGO</span>
+        </div>
+    </div>
 
-    <section id="about" class="about view-port-format">
-        <h2>About Me</h2>
-    </section>
-
-
-    <section id="portfolio" class="view-port-format">
-        <h2>My Work</h2>
-    </section>
-
-    
-    <section id="contact" class="view-port-format">
-        <h2>Where i work</h2>
-    </section>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo id accusantium cum numquam labore atque magni? Totam tempora error delectus aspernatur quibusdam harum at quisquam, quod, dolore numquam dolor vero.</p>
+    </div>
 </body>
 </html>
