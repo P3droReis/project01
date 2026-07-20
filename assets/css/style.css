@@ -103,3 +103,70 @@ header {
     font-size: 24px;
     letter-spacing: 10px;
 }
+
+.content-center {
+    background-color: red;
+    color: white;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.about-subtitle {
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+.about-content {
+    margin: 15px 0px;
+}
+
+.about-my {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-my-content {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px;
+}
+
+.about-my-content p {
+    margin: 15px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-my-content img {
+    border-radius: 4px;
+    opacity: 0.60;
+}
+
+.about-my-content img:hover {
+    opacity: 1;
+}
+
+.about-description {
+    padding: 12px 24px;
+}
+
+.about-description p {
+    margin: 15px 0px;
+}
+
+.about-subtitle2 {
+    text-align: center;
+    background-color: blue;
+    margin: 18px 0px;
+    padding: 16px 0px;
+    font-size: 16px;
+}
