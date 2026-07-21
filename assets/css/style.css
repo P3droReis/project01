@@ -78,10 +78,17 @@ header {
 }
 
 
-.back-image {
+.back-image1 {
+    background-image: url(/assets/images/parallax1.jpg);
+}
+
+.back-image2 {
+    background-image: url(/assets/images/parallax2.jpg);
+}
+
+.img-format {
     min-height: 400px;
     max-width: 1600px;
-    background-image: url(/assets/images/parallax1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,9 +111,14 @@ header {
     letter-spacing: 10px;
 }
 
+.image-text p {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
 .content-center {
-    background-color: red;
-    color: white;
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
@@ -165,8 +177,82 @@ header {
 
 .about-subtitle2 {
     text-align: center;
-    background-color: blue;
     margin: 18px 0px;
     padding: 16px 0px;
     font-size: 16px;
 }
+
+.about-services {
+    font-size: 15px;
+    letter-spacing: 10px;
+    margin: 15px 0px;
+}
+
+.about-services-grafic {
+    background-color: #f1f1f1;
+}
+
+.about-services-grafic-interior {
+    background-color: #616161;
+    color: #fff;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.about-numbers {
+    background-color: #616161;
+    color: #fff;
+    padding: 16px 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.my-numbers {
+    margin: 16px 0px;
+}
+
+.my-numbers span {
+    font-size: 24px;
+}
+
+.portfolio {
+    background-color: red;
+    color: #fff;
+}
+
+.portfolio h3 {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+.portfolio p {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.my-portfolio {
+    padding: 0px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.my-portfolio-container {
+    padding: 0px 8px;
+}
+
+.my-portfolio2 {
+    padding: 0px 8px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.portfolio-button {
+    margin-top: 64px;
+    text-align: center;
+}
+
+
