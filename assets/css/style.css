@@ -77,6 +77,13 @@ header {
 
 .back-image1 {
     background-image: url(/parallax1.jpg);
+    min-height: 400px;
+    max-width: 1600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.75;
 }
 
 .back-image2 {
@@ -87,7 +94,7 @@ header {
     background-image: url(/assets/images/parallax3.jpg);
 }
 
-.img-format {
+/* .img-format {
     min-height: 400px;
     max-width: 1600px;
     background-position: center;
@@ -95,7 +102,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     opacity: 0.75;
-}
+} */
 
 .image-text {
    min-height: 400px;
