@@ -76,7 +76,7 @@ header {
 
 
 .back-image1 {
-    background-image: url("/assets/images/parallax1.jpg");
+    background-image: url(/assets/images/parallax1.jpg);
 }
 
 .back-image2 {
