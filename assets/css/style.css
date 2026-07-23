@@ -391,3 +391,48 @@ footer p a:hover {
 }
 
 
+@media (max-width: 460px) {
+    .nav-bar {
+        width: 100%;
+    }
+    
+    .nav-bar-buttom {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .about-description {
+        display: none;
+    }
+
+    .about-my-content {
+        width: 100%;
+    }
+
+    .about-numbers {
+        flex-direction: column;
+    }
+
+    .my-portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .my-portfolio2 {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+
+    .my-contacts-container {
+        width: 100%;
+    }
+}
